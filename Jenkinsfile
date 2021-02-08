@@ -1,5 +1,7 @@
 pipeline{
-    agent any
+    agent{
+        label 'win'
+    }
     tools {
         maven 'mvn3'
         jdk 'jdk11'
